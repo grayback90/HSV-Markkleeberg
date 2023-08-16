@@ -1,10 +1,9 @@
 # HSV-Markkleeberg
-New Webdesign for the club "HSV Markkleeberg".
-Website: https://hsv-markkleeberg.de/
-Old Design:
+* New Webdesign for the club "HSV Markkleeberg".
+* Website: https://hsv-markkleeberg.de/
+* Old Design:
 
-
-
+![old_website_16082023](https://github.com/grayback90/HSV-Markkleeberg/assets/40500367/5951e80b-a2b4-46b2-b34d-409675f10c16)
 
 ## Important commands
 * npm i und npm fund -> to install all needed modules
