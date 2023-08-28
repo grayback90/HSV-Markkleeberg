@@ -1,4 +1,9 @@
+'use client'
+
 import Navibar from "./navibar"
+import React, { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 export default function Home() {
   return (
@@ -15,7 +20,19 @@ export default function Home() {
         </div>
       </div>
       <div id="uVerein">
-        <p>UNSER VEREIN</p>
+        <h1 className="flex justify-center pt-10 pb-10 font-bold">UNSER VEREIN</h1>
+          <Carousel>
+                    <div>
+                        <img src="./../../pictures/vorstand/Franzi.jpg" alt="franzi"/>
+                        <p>Franzi</p>
+    
+                    </div>
+                    <div>
+                        <img src="./../../pictures/vorstand/Melanie.jpg" alt="melanie" />
+                        <p>Melanie</p>
+    
+                    </div>
+                </Carousel>
       </div>
       <div id="angebot">
         <p>Angebot</p>
